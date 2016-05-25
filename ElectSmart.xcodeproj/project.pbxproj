@@ -7,9 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011BB8041CD3F9D60003A426 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011BB8031CD3F9D60003A426 /* Utility.swift */; };
+		015B0ABE1CB3911C0036A819 /* BingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B0ABD1CB3911C0036A819 /* BingTask.swift */; };
+		01988CC91CB34E0B008BE98B /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01988CC71CB34E0B008BE98B /* Fabric.framework */; };
+		01988CCA1CB34E0B008BE98B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01988CC81CB34E0B008BE98B /* Crashlytics.framework */; };
+		01988CCE1CB34F1C008BE98B /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01988CCB1CB34F1C008BE98B /* TwitterKit.framework */; };
+		01988CCF1CB34F1C008BE98B /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01988CCC1CB34F1C008BE98B /* TwitterKitResources.bundle */; };
+		01988CD01CB34F1C008BE98B /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01988CCD1CB34F1C008BE98B /* TwitterCore.framework */; };
+		01AA1C141CB5FFD600463145 /* DisqusAuthenticateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA1C101CB5FFD600463145 /* DisqusAuthenticateViewController.swift */; };
+		01AA1C151CB5FFD600463145 /* DisqusDiscussionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA1C111CB5FFD600463145 /* DisqusDiscussionsTableViewController.swift */; };
+		01AA1C161CB5FFD600463145 /* DisqusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA1C121CB5FFD600463145 /* DisqusManager.swift */; };
+		01AA1C171CB5FFD600463145 /* DisqusSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA1C131CB5FFD600463145 /* DisqusSettings.swift */; };
+		01DA1FD01CB4A578002B0C58 /* ElectSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DA1FCF1CB4A578002B0C58 /* ElectSmartTests.swift */; };
+		01DA1FDE1CB4BC2F002B0C58 /* ElectSmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DA1FDD1CB4BC2F002B0C58 /* ElectSmartUITests.swift */; };
+		561CA3441CB231AB00CF776D /* PollingPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561CA3431CB231AB00CF776D /* PollingPlaceViewController.swift */; };
+		562A22B41CB6F73A007BBA7A /* CurrentEventsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A22B31CB6F73A007BBA7A /* CurrentEventsTest.swift */; };
+		563D15181CB70F87007B0450 /* ElectionUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D15171CB70F87007B0450 /* ElectionUITest.swift */; };
+		563D151A1CB70FF0007B0450 /* CandidateUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D15191CB70FF0007B0450 /* CandidateUITest.swift */; };
+		563D151C1CB71135007B0450 /* MapViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D151B1CB71135007B0450 /* MapViewUITest.swift */; };
+		56458AB91CB4C6C6008EB0F2 /* CandidateHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56458AB81CB4C6C6008EB0F2 /* CandidateHeaderTableViewCell.swift */; };
+		56458ABB1CB4C6F9008EB0F2 /* CandidateBioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56458ABA1CB4C6F9008EB0F2 /* CandidateBioTableViewCell.swift */; };
+		56458ABD1CB4C70D008EB0F2 /* CandidateHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56458ABC1CB4C70D008EB0F2 /* CandidateHistoryTableViewCell.swift */; };
+		5650D8E81CB2BB9900B8160A /* CandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650D8E71CB2BB9900B8160A /* CandidateViewController.swift */; };
+		5659D62E1CB70C46008F7E00 /* UpcomingElectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659D62D1CB70C46008F7E00 /* UpcomingElectionsTests.swift */; };
+		5659D6301CB70EBE008F7E00 /* SetLocationUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659D62F1CB70EBE008F7E00 /* SetLocationUITest.swift */; };
+		56694DD71CB714D80012A495 /* DisqusPostUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56694DD61CB714D80012A495 /* DisqusPostUITest.swift */; };
+		56694DD91CB714F00012A495 /* DisqusRepliesUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56694DD81CB714F00012A495 /* DisqusRepliesUITest.swift */; };
+		5683DA951CB3423C00BE84B9 /* ElectionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683DA941CB3423C00BE84B9 /* ElectionHeaderTableViewCell.swift */; };
+		5683DA971CB3426300BE84B9 /* ElectionCandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683DA961CB3426300BE84B9 /* ElectionCandidateTableViewCell.swift */; };
+		5688D0401CC5809F007E545B /* HomeQueryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688D03F1CC5809F007E545B /* HomeQueryTableViewCell.swift */; };
 		568E4D3D1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E4D3C1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift */; };
 		568E4D3F1C9A719100F5959E /* ElectionEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E4D3E1C9A719100F5959E /* ElectionEventViewController.swift */; };
-		DC7CABAA1C961CE9009BB184 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABA91C961CE9009BB184 /* SettingsViewController.swift */; };
+		56AF06B41CB6F923007FE2E1 /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF06B31CB6F923007FE2E1 /* SettingsTests.swift */; };
+		56FEE7781CD2B25E00C35C6A /* VoteSmart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEE7771CD2B25E00C35C6A /* VoteSmart.swift */; };
+		56FEE77A1CD3AF2E00C35C6A /* CandidateBio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEE7791CD3AF2E00C35C6A /* CandidateBio.swift */; };
+		82C014E4A8CAA3D0DA1F81F5 /* Pods_ElectSmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0786BC91F6E9AC5AC2B18D94 /* Pods_ElectSmart.framework */; };
+		DC24B9F31CC3FE3300586E68 /* Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24B9F21CC3FE3300586E68 /* Discussion.swift */; };
+		DC24B9F51CC4006400586E68 /* DiscussionReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24B9F41CC4006400586E68 /* DiscussionReply.swift */; };
+		DC2BBC251C9BC0DB00CB72AA /* HomeStoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BBC241C9BC0DB00CB72AA /* HomeStoryTableViewController.swift */; };
+		DC2DE6F21CB459BF00B50A42 /* HomeStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2DE6F11CB459BF00B50A42 /* HomeStoryTableViewCell.swift */; };
+		DC2DE6F61CB4657800B50A42 /* CurrentEventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2DE6F51CB4657800B50A42 /* CurrentEventsTableViewCell.swift */; };
+		DC4EE1C71CC43C3C0028D144 /* CurrentEventsTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EE1C61CC43C3C0028D144 /* CurrentEventsTableViewHeaderCell.swift */; };
 		DC7CABAC1C961FC8009BB184 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */; };
 		DC7CABAE1C962096009BB184 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7CABAD1C962096009BB184 /* CoreLocation.framework */; };
 		DC7CABB21C962D29009BB184 /* AppData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7CABB11C962D29009BB184 /* AppData.plist */; };
@@ -17,6 +55,16 @@
 		DC7CABD81C966805009BB184 /* NewsStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABD71C966805009BB184 /* NewsStory.swift */; };
 		DC7CABDA1C966847009BB184 /* CurrentEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABD91C966847009BB184 /* CurrentEventsTableViewController.swift */; };
 		DC7CABDD1C96793D009BB184 /* NewsStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABDC1C96793D009BB184 /* NewsStoryViewController.swift */; };
+		DC9214FE1C9B92C00044BE91 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9214FD1C9B92C00044BE91 /* SettingsTableViewController.swift */; };
+		DC9215001C9B9F580044BE91 /* Election.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9214FF1C9B9F580044BE91 /* Election.swift */; };
+		DC9215021C9B9F8C0044BE91 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9215011C9B9F8C0044BE91 /* Candidate.swift */; };
+		DCE8AE7B1CB5FC4700F918E0 /* NewsStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE7A1CB5FC4700F918E0 /* NewsStoryTests.swift */; };
+		DCE8AE7D1CB601F500F918E0 /* ElectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE7C1CB601F500F918E0 /* ElectionTests.swift */; };
+		DCE8AE7F1CB60A9800F918E0 /* CandidateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE7E1CB60A9800F918E0 /* CandidateTests.swift */; };
+		DCE8AE811CB61E2400F918E0 /* DisqusDiscussionRepliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE801CB61E2400F918E0 /* DisqusDiscussionRepliesTableViewController.swift */; };
+		DCE8AE831CB629C800F918E0 /* DisqusDiscussionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE821CB629C800F918E0 /* DisqusDiscussionsTableViewCell.swift */; };
+		DCE8AE851CB62A1000F918E0 /* DisqusDiscussionRepliesTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE841CB62A1000F918E0 /* DisqusDiscussionRepliesTableViewHeaderCell.swift */; };
+		DCE8AE871CB62A3D00F918E0 /* DisqusDiscussionRepliesTableViewReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE861CB62A3D00F918E0 /* DisqusDiscussionRepliesTableViewReplyCell.swift */; };
 		DCEF88051C8FA283005CAF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF88041C8FA283005CAF6A /* AppDelegate.swift */; };
 		DCEF88071C8FA283005CAF6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF88061C8FA283005CAF6A /* HomeViewController.swift */; };
 		DCEF88091C8FA283005CAF6A /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF88081C8FA283005CAF6A /* UpcomingViewController.swift */; };
@@ -25,10 +73,71 @@
 		DCEF88111C8FA283005CAF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEF880F1C8FA283005CAF6A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		01DA1FD21CB4A578002B0C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEF87F91C8FA283005CAF6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEF88001C8FA283005CAF6A;
+			remoteInfo = ElectSmart;
+		};
+		01DA1FE01CB4BC2F002B0C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEF87F91C8FA283005CAF6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEF88001C8FA283005CAF6A;
+			remoteInfo = ElectSmart;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		011BB8031CD3F9D60003A426 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		015B0ABD1CB3911C0036A819 /* BingTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingTask.swift; sourceTree = "<group>"; };
+		01988CC71CB34E0B008BE98B /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		01988CC81CB34E0B008BE98B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		01988CCB1CB34F1C008BE98B /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		01988CCC1CB34F1C008BE98B /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		01988CCD1CB34F1C008BE98B /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		01AA1C101CB5FFD600463145 /* DisqusAuthenticateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisqusAuthenticateViewController.swift; path = ../DisqusAuthenticateViewController.swift; sourceTree = "<group>"; };
+		01AA1C111CB5FFD600463145 /* DisqusDiscussionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisqusDiscussionsTableViewController.swift; path = ../DisqusDiscussionsTableViewController.swift; sourceTree = "<group>"; };
+		01AA1C121CB5FFD600463145 /* DisqusManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusManager.swift; sourceTree = "<group>"; };
+		01AA1C131CB5FFD600463145 /* DisqusSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusSettings.swift; sourceTree = "<group>"; };
+		01DA1FCD1CB4A577002B0C58 /* ElectSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DA1FCF1CB4A578002B0C58 /* ElectSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectSmartTests.swift; sourceTree = "<group>"; };
+		01DA1FD11CB4A578002B0C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DA1FDB1CB4BC2F002B0C58 /* ElectSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DA1FDD1CB4BC2F002B0C58 /* ElectSmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectSmartUITests.swift; sourceTree = "<group>"; };
+		01DA1FDF1CB4BC2F002B0C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0786BC91F6E9AC5AC2B18D94 /* Pods_ElectSmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectSmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561CA3431CB231AB00CF776D /* PollingPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollingPlaceViewController.swift; sourceTree = "<group>"; };
+		562A22B31CB6F73A007BBA7A /* CurrentEventsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentEventsTest.swift; sourceTree = "<group>"; };
+		563D15171CB70F87007B0450 /* ElectionUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionUITest.swift; sourceTree = "<group>"; };
+		563D15191CB70FF0007B0450 /* CandidateUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateUITest.swift; sourceTree = "<group>"; };
+		563D151B1CB71135007B0450 /* MapViewUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewUITest.swift; sourceTree = "<group>"; };
+		56458AB81CB4C6C6008EB0F2 /* CandidateHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		56458ABA1CB4C6F9008EB0F2 /* CandidateBioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateBioTableViewCell.swift; sourceTree = "<group>"; };
+		56458ABC1CB4C70D008EB0F2 /* CandidateHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		5650D8E71CB2BB9900B8160A /* CandidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateViewController.swift; sourceTree = "<group>"; };
+		5659D62D1CB70C46008F7E00 /* UpcomingElectionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingElectionsTests.swift; sourceTree = "<group>"; };
+		5659D62F1CB70EBE008F7E00 /* SetLocationUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetLocationUITest.swift; sourceTree = "<group>"; };
+		56694DD61CB714D80012A495 /* DisqusPostUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusPostUITest.swift; sourceTree = "<group>"; };
+		56694DD81CB714F00012A495 /* DisqusRepliesUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusRepliesUITest.swift; sourceTree = "<group>"; };
+		5683DA941CB3423C00BE84B9 /* ElectionHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		5683DA961CB3426300BE84B9 /* ElectionCandidateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionCandidateTableViewCell.swift; sourceTree = "<group>"; };
+		5688D03F1CC5809F007E545B /* HomeQueryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeQueryTableViewCell.swift; sourceTree = "<group>"; };
 		568E4D3C1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingElectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		568E4D3E1C9A719100F5959E /* ElectionEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionEventViewController.swift; sourceTree = "<group>"; };
-		DC7CABA91C961CE9009BB184 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		56AF06B31CB6F923007FE2E1 /* SettingsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTests.swift; sourceTree = "<group>"; };
+		56FEE7771CD2B25E00C35C6A /* VoteSmart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteSmart.swift; sourceTree = "<group>"; };
+		56FEE7791CD3AF2E00C35C6A /* CandidateBio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateBio.swift; sourceTree = "<group>"; };
+		A3DBFDB6CA0F9F19A4924578 /* Pods-ElectSmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectSmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectSmart/Pods-ElectSmart.debug.xcconfig"; sourceTree = "<group>"; };
+		B77019F5BAE6EA95469CCF3E /* Pods-ElectSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectSmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectSmart/Pods-ElectSmart.release.xcconfig"; sourceTree = "<group>"; };
+		DC24B9F21CC3FE3300586E68 /* Discussion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discussion.swift; sourceTree = "<group>"; };
+		DC24B9F41CC4006400586E68 /* DiscussionReply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionReply.swift; sourceTree = "<group>"; };
+		DC2BBC241C9BC0DB00CB72AA /* HomeStoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStoryTableViewController.swift; sourceTree = "<group>"; };
+		DC2DE6F11CB459BF00B50A42 /* HomeStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStoryTableViewCell.swift; sourceTree = "<group>"; };
+		DC2DE6F51CB4657800B50A42 /* CurrentEventsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentEventsTableViewCell.swift; sourceTree = "<group>"; };
+		DC4EE1C61CC43C3C0028D144 /* CurrentEventsTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentEventsTableViewHeaderCell.swift; sourceTree = "<group>"; };
 		DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
 		DC7CABAD1C962096009BB184 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DC7CABB11C962D29009BB184 /* AppData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppData.plist; sourceTree = "<group>"; };
@@ -36,6 +145,16 @@
 		DC7CABD71C966805009BB184 /* NewsStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStory.swift; sourceTree = "<group>"; };
 		DC7CABD91C966847009BB184 /* CurrentEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentEventsTableViewController.swift; sourceTree = "<group>"; };
 		DC7CABDC1C96793D009BB184 /* NewsStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStoryViewController.swift; sourceTree = "<group>"; };
+		DC9214FD1C9B92C00044BE91 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		DC9214FF1C9B9F580044BE91 /* Election.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Election.swift; sourceTree = "<group>"; };
+		DC9215011C9B9F8C0044BE91 /* Candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		DCE8AE7A1CB5FC4700F918E0 /* NewsStoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStoryTests.swift; sourceTree = "<group>"; };
+		DCE8AE7C1CB601F500F918E0 /* ElectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionTests.swift; sourceTree = "<group>"; };
+		DCE8AE7E1CB60A9800F918E0 /* CandidateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateTests.swift; sourceTree = "<group>"; };
+		DCE8AE801CB61E2400F918E0 /* DisqusDiscussionRepliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusDiscussionRepliesTableViewController.swift; sourceTree = "<group>"; };
+		DCE8AE821CB629C800F918E0 /* DisqusDiscussionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusDiscussionsTableViewCell.swift; sourceTree = "<group>"; };
+		DCE8AE841CB62A1000F918E0 /* DisqusDiscussionRepliesTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusDiscussionRepliesTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		DCE8AE861CB62A3D00F918E0 /* DisqusDiscussionRepliesTableViewReplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisqusDiscussionRepliesTableViewReplyCell.swift; sourceTree = "<group>"; };
 		DCEF88011C8FA283005CAF6A /* ElectSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEF88041C8FA283005CAF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEF88061C8FA283005CAF6A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -47,24 +166,109 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01DA1FCA1CB4A577002B0C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DA1FD81CB4BC2F002B0C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCEF87FE1C8FA283005CAF6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC7CABAE1C962096009BB184 /* CoreLocation.framework in Frameworks */,
+				01988CD01CB34F1C008BE98B /* TwitterCore.framework in Frameworks */,
+				01988CCE1CB34F1C008BE98B /* TwitterKit.framework in Frameworks */,
+				82C014E4A8CAA3D0DA1F81F5 /* Pods_ElectSmart.framework in Frameworks */,
+				01988CCA1CB34E0B008BE98B /* Crashlytics.framework in Frameworks */,
+				01988CC91CB34E0B008BE98B /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01DA1FCE1CB4A578002B0C58 /* ElectSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				01DA1FCF1CB4A578002B0C58 /* ElectSmartTests.swift */,
+				DCE8AE7E1CB60A9800F918E0 /* CandidateTests.swift */,
+				DCE8AE7C1CB601F500F918E0 /* ElectionTests.swift */,
+				DCE8AE7A1CB5FC4700F918E0 /* NewsStoryTests.swift */,
+				01DA1FD11CB4A578002B0C58 /* Info.plist */,
+			);
+			path = ElectSmartTests;
+			sourceTree = "<group>";
+		};
+		01DA1FDC1CB4BC2F002B0C58 /* ElectSmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56694DD81CB714F00012A495 /* DisqusRepliesUITest.swift */,
+				56694DD61CB714D80012A495 /* DisqusPostUITest.swift */,
+				563D151B1CB71135007B0450 /* MapViewUITest.swift */,
+				563D15191CB70FF0007B0450 /* CandidateUITest.swift */,
+				563D15171CB70F87007B0450 /* ElectionUITest.swift */,
+				5659D62F1CB70EBE008F7E00 /* SetLocationUITest.swift */,
+				5659D62D1CB70C46008F7E00 /* UpcomingElectionsTests.swift */,
+				56AF06B31CB6F923007FE2E1 /* SettingsTests.swift */,
+				562A22B31CB6F73A007BBA7A /* CurrentEventsTest.swift */,
+				01DA1FDD1CB4BC2F002B0C58 /* ElectSmartUITests.swift */,
+				01DA1FDF1CB4BC2F002B0C58 /* Info.plist */,
+			);
+			path = ElectSmartUITests;
+			sourceTree = "<group>";
+		};
+		4A7242724E0F8E18513A1375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0786BC91F6E9AC5AC2B18D94 /* Pods_ElectSmart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5985DE293B638E3799B61B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3DBFDB6CA0F9F19A4924578 /* Pods-ElectSmart.debug.xcconfig */,
+				B77019F5BAE6EA95469CCF3E /* Pods-ElectSmart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DCEF87F81C8FA283005CAF6A = {
 			isa = PBXGroup;
 			children = (
+				01988CCB1CB34F1C008BE98B /* TwitterKit.framework */,
+				01988CCC1CB34F1C008BE98B /* TwitterKitResources.bundle */,
+				01988CCD1CB34F1C008BE98B /* TwitterCore.framework */,
+				01988CC71CB34E0B008BE98B /* Fabric.framework */,
+				01988CC81CB34E0B008BE98B /* Crashlytics.framework */,
+				01AA1C121CB5FFD600463145 /* DisqusManager.swift */,
+				01AA1C131CB5FFD600463145 /* DisqusSettings.swift */,
+				56FEE7771CD2B25E00C35C6A /* VoteSmart.swift */,
+				011BB8031CD3F9D60003A426 /* Utility.swift */,
+				015B0ABD1CB3911C0036A819 /* BingTask.swift */,
 				DC7CABD71C966805009BB184 /* NewsStory.swift */,
+				DC9214FF1C9B9F580044BE91 /* Election.swift */,
+				DC9215011C9B9F8C0044BE91 /* Candidate.swift */,
+				56FEE7791CD3AF2E00C35C6A /* CandidateBio.swift */,
+				DC24B9F21CC3FE3300586E68 /* Discussion.swift */,
+				DC24B9F41CC4006400586E68 /* DiscussionReply.swift */,
 				DC7CABAD1C962096009BB184 /* CoreLocation.framework */,
 				DCEF88031C8FA283005CAF6A /* ElectSmart */,
+				01DA1FCE1CB4A578002B0C58 /* ElectSmartTests */,
+				01DA1FDC1CB4BC2F002B0C58 /* ElectSmartUITests */,
 				DCEF88021C8FA283005CAF6A /* Products */,
+				5985DE293B638E3799B61B93 /* Pods */,
+				4A7242724E0F8E18513A1375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				DCEF88011C8FA283005CAF6A /* ElectSmart.app */,
+				01DA1FCD1CB4A577002B0C58 /* ElectSmartTests.xctest */,
+				01DA1FDB1CB4BC2F002B0C58 /* ElectSmartUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,15 +286,33 @@
 			isa = PBXGroup;
 			children = (
 				DCEF88041C8FA283005CAF6A /* AppDelegate.swift */,
+				DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */,
 				DC7CABB31C963DA0009BB184 /* MainTabBarController.swift */,
 				DCEF88061C8FA283005CAF6A /* HomeViewController.swift */,
-				DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */,
-				DC7CABA91C961CE9009BB184 /* SettingsViewController.swift */,
+				DC2BBC241C9BC0DB00CB72AA /* HomeStoryTableViewController.swift */,
+				DC2DE6F11CB459BF00B50A42 /* HomeStoryTableViewCell.swift */,
+				5688D03F1CC5809F007E545B /* HomeQueryTableViewCell.swift */,
+				DCEF88081C8FA283005CAF6A /* UpcomingViewController.swift */,
 				568E4D3C1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift */,
 				568E4D3E1C9A719100F5959E /* ElectionEventViewController.swift */,
+				5683DA941CB3423C00BE84B9 /* ElectionHeaderTableViewCell.swift */,
+				5683DA961CB3426300BE84B9 /* ElectionCandidateTableViewCell.swift */,
+				5650D8E71CB2BB9900B8160A /* CandidateViewController.swift */,
+				56458AB81CB4C6C6008EB0F2 /* CandidateHeaderTableViewCell.swift */,
+				56458ABA1CB4C6F9008EB0F2 /* CandidateBioTableViewCell.swift */,
+				56458ABC1CB4C70D008EB0F2 /* CandidateHistoryTableViewCell.swift */,
+				561CA3431CB231AB00CF776D /* PollingPlaceViewController.swift */,
 				DC7CABD91C966847009BB184 /* CurrentEventsTableViewController.swift */,
-				DCEF88081C8FA283005CAF6A /* UpcomingViewController.swift */,
+				DC2DE6F51CB4657800B50A42 /* CurrentEventsTableViewCell.swift */,
+				DC4EE1C61CC43C3C0028D144 /* CurrentEventsTableViewHeaderCell.swift */,
 				DC7CABDC1C96793D009BB184 /* NewsStoryViewController.swift */,
+				01AA1C101CB5FFD600463145 /* DisqusAuthenticateViewController.swift */,
+				01AA1C111CB5FFD600463145 /* DisqusDiscussionsTableViewController.swift */,
+				DCE8AE821CB629C800F918E0 /* DisqusDiscussionsTableViewCell.swift */,
+				DCE8AE801CB61E2400F918E0 /* DisqusDiscussionRepliesTableViewController.swift */,
+				DCE8AE841CB62A1000F918E0 /* DisqusDiscussionRepliesTableViewHeaderCell.swift */,
+				DCE8AE861CB62A3D00F918E0 /* DisqusDiscussionRepliesTableViewReplyCell.swift */,
+				DC9214FD1C9B92C00044BE91 /* SettingsTableViewController.swift */,
 				DCEF880A1C8FA283005CAF6A /* Main.storyboard */,
 				DCEF880D1C8FA283005CAF6A /* Assets.xcassets */,
 				DCEF880F1C8FA283005CAF6A /* LaunchScreen.storyboard */,
@@ -101,13 +325,53 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		01DA1FCC1CB4A577002B0C58 /* ElectSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DA1FD61CB4A578002B0C58 /* Build configuration list for PBXNativeTarget "ElectSmartTests" */;
+			buildPhases = (
+				01DA1FC91CB4A577002B0C58 /* Sources */,
+				01DA1FCA1CB4A577002B0C58 /* Frameworks */,
+				01DA1FCB1CB4A577002B0C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DA1FD31CB4A578002B0C58 /* PBXTargetDependency */,
+			);
+			name = ElectSmartTests;
+			productName = ElectSmartTests;
+			productReference = 01DA1FCD1CB4A577002B0C58 /* ElectSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01DA1FDA1CB4BC2F002B0C58 /* ElectSmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DA1FE21CB4BC2F002B0C58 /* Build configuration list for PBXNativeTarget "ElectSmartUITests" */;
+			buildPhases = (
+				01DA1FD71CB4BC2F002B0C58 /* Sources */,
+				01DA1FD81CB4BC2F002B0C58 /* Frameworks */,
+				01DA1FD91CB4BC2F002B0C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DA1FE11CB4BC2F002B0C58 /* PBXTargetDependency */,
+			);
+			name = ElectSmartUITests;
+			productName = ElectSmartUITests;
+			productReference = 01DA1FDB1CB4BC2F002B0C58 /* ElectSmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DCEF88001C8FA283005CAF6A /* ElectSmart */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCEF88151C8FA283005CAF6A /* Build configuration list for PBXNativeTarget "ElectSmart" */;
 			buildPhases = (
+				04D811FBA6B0F82F942F51BC /* Check Pods Manifest.lock */,
 				DCEF87FD1C8FA283005CAF6A /* Sources */,
 				DCEF87FE1C8FA283005CAF6A /* Frameworks */,
 				DCEF87FF1C8FA283005CAF6A /* Resources */,
+				B9B62295E82E9B82941F28C8 /* Embed Pods Frameworks */,
+				7E14B558496DE6D027811F1E /* Copy Pods Resources */,
+				01988CC61CB34D7F008BE98B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,13 +388,24 @@
 		DCEF87F91C8FA283005CAF6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Stephen Gaschignard";
 				TargetAttributes = {
+					01DA1FCC1CB4A577002B0C58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = KZ5Y22JK7H;
+						TestTargetID = DCEF88001C8FA283005CAF6A;
+					};
+					01DA1FDA1CB4BC2F002B0C58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = KZ5Y22JK7H;
+						TestTargetID = DCEF88001C8FA283005CAF6A;
+					};
 					DCEF88001C8FA283005CAF6A = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 93HMH2242V;
+						DevelopmentTeam = KZ5Y22JK7H;
 					};
 				};
 			};
@@ -148,11 +423,27 @@
 			projectRoot = "";
 			targets = (
 				DCEF88001C8FA283005CAF6A /* ElectSmart */,
+				01DA1FCC1CB4A577002B0C58 /* ElectSmartTests */,
+				01DA1FDA1CB4BC2F002B0C58 /* ElectSmartUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		01DA1FCB1CB4A577002B0C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DA1FD91CB4BC2F002B0C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCEF87FF1C8FA283005CAF6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,31 +452,162 @@
 				DCEF880E1C8FA283005CAF6A /* Assets.xcassets in Resources */,
 				DC7CABB21C962D29009BB184 /* AppData.plist in Resources */,
 				DCEF880C1C8FA283005CAF6A /* Main.storyboard in Resources */,
+				01988CCF1CB34F1C008BE98B /* TwitterKitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01988CC61CB34D7F008BE98B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 4d1b9dcac7f5fad15894564711bb4fd5a49fdbb3 4c96b16c8fb4749b5716c986471791cf74b68c31697d63446c52aaa8dbd6129c";
+		};
+		04D811FBA6B0F82F942F51BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E14B558496DE6D027811F1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectSmart/Pods-ElectSmart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B62295E82E9B82941F28C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectSmart/Pods-ElectSmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		01DA1FC91CB4A577002B0C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE8AE7B1CB5FC4700F918E0 /* NewsStoryTests.swift in Sources */,
+				01DA1FD01CB4A578002B0C58 /* ElectSmartTests.swift in Sources */,
+				DCE8AE7D1CB601F500F918E0 /* ElectionTests.swift in Sources */,
+				DCE8AE7F1CB60A9800F918E0 /* CandidateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DA1FD71CB4BC2F002B0C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563D15181CB70F87007B0450 /* ElectionUITest.swift in Sources */,
+				5659D6301CB70EBE008F7E00 /* SetLocationUITest.swift in Sources */,
+				563D151C1CB71135007B0450 /* MapViewUITest.swift in Sources */,
+				563D151A1CB70FF0007B0450 /* CandidateUITest.swift in Sources */,
+				562A22B41CB6F73A007BBA7A /* CurrentEventsTest.swift in Sources */,
+				56AF06B41CB6F923007FE2E1 /* SettingsTests.swift in Sources */,
+				56694DD91CB714F00012A495 /* DisqusRepliesUITest.swift in Sources */,
+				01DA1FDE1CB4BC2F002B0C58 /* ElectSmartUITests.swift in Sources */,
+				56694DD71CB714D80012A495 /* DisqusPostUITest.swift in Sources */,
+				5659D62E1CB70C46008F7E00 /* UpcomingElectionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCEF87FD1C8FA283005CAF6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4EE1C71CC43C3C0028D144 /* CurrentEventsTableViewHeaderCell.swift in Sources */,
 				568E4D3F1C9A719100F5959E /* ElectionEventViewController.swift in Sources */,
+				01AA1C151CB5FFD600463145 /* DisqusDiscussionsTableViewController.swift in Sources */,
 				DC7CABDA1C966847009BB184 /* CurrentEventsTableViewController.swift in Sources */,
+				56458AB91CB4C6C6008EB0F2 /* CandidateHeaderTableViewCell.swift in Sources */,
+				DC2BBC251C9BC0DB00CB72AA /* HomeStoryTableViewController.swift in Sources */,
+				56FEE7781CD2B25E00C35C6A /* VoteSmart.swift in Sources */,
+				01AA1C161CB5FFD600463145 /* DisqusManager.swift in Sources */,
+				DCE8AE851CB62A1000F918E0 /* DisqusDiscussionRepliesTableViewHeaderCell.swift in Sources */,
+				5683DA951CB3423C00BE84B9 /* ElectionHeaderTableViewCell.swift in Sources */,
 				DC7CABD81C966805009BB184 /* NewsStory.swift in Sources */,
+				5650D8E81CB2BB9900B8160A /* CandidateViewController.swift in Sources */,
+				56FEE77A1CD3AF2E00C35C6A /* CandidateBio.swift in Sources */,
+				DCE8AE871CB62A3D00F918E0 /* DisqusDiscussionRepliesTableViewReplyCell.swift in Sources */,
+				DC2DE6F61CB4657800B50A42 /* CurrentEventsTableViewCell.swift in Sources */,
+				DC2DE6F21CB459BF00B50A42 /* HomeStoryTableViewCell.swift in Sources */,
+				01AA1C141CB5FFD600463145 /* DisqusAuthenticateViewController.swift in Sources */,
+				56458ABB1CB4C6F9008EB0F2 /* CandidateBioTableViewCell.swift in Sources */,
+				5683DA971CB3426300BE84B9 /* ElectionCandidateTableViewCell.swift in Sources */,
 				DCEF88091C8FA283005CAF6A /* UpcomingViewController.swift in Sources */,
+				011BB8041CD3F9D60003A426 /* Utility.swift in Sources */,
 				DCEF88051C8FA283005CAF6A /* AppDelegate.swift in Sources */,
+				DCE8AE811CB61E2400F918E0 /* DisqusDiscussionRepliesTableViewController.swift in Sources */,
 				DC7CABAC1C961FC8009BB184 /* AddressViewController.swift in Sources */,
 				DC7CABDD1C96793D009BB184 /* NewsStoryViewController.swift in Sources */,
+				DC24B9F31CC3FE3300586E68 /* Discussion.swift in Sources */,
 				DC7CABB41C963DA0009BB184 /* MainTabBarController.swift in Sources */,
+				56458ABD1CB4C70D008EB0F2 /* CandidateHistoryTableViewCell.swift in Sources */,
+				5688D0401CC5809F007E545B /* HomeQueryTableViewCell.swift in Sources */,
+				DC24B9F51CC4006400586E68 /* DiscussionReply.swift in Sources */,
+				DC9215001C9B9F580044BE91 /* Election.swift in Sources */,
+				DCE8AE831CB629C800F918E0 /* DisqusDiscussionsTableViewCell.swift in Sources */,
+				DC9215021C9B9F8C0044BE91 /* Candidate.swift in Sources */,
+				01AA1C171CB5FFD600463145 /* DisqusSettings.swift in Sources */,
+				DC9214FE1C9B92C00044BE91 /* SettingsTableViewController.swift in Sources */,
 				DCEF88071C8FA283005CAF6A /* HomeViewController.swift in Sources */,
-				DC7CABAA1C961CE9009BB184 /* SettingsViewController.swift in Sources */,
+				015B0ABE1CB3911C0036A819 /* BingTask.swift in Sources */,
+				561CA3441CB231AB00CF776D /* PollingPlaceViewController.swift in Sources */,
 				568E4D3D1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01DA1FD31CB4A578002B0C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEF88001C8FA283005CAF6A /* ElectSmart */;
+			targetProxy = 01DA1FD21CB4A578002B0C58 /* PBXContainerItemProxy */;
+		};
+		01DA1FE11CB4BC2F002B0C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEF88001C8FA283005CAF6A /* ElectSmart */;
+			targetProxy = 01DA1FE01CB4BC2F002B0C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DCEF880A1C8FA283005CAF6A /* Main.storyboard */ = {
@@ -207,6 +629,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		01DA1FD41CB4A578002B0C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ElectSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectSmart.app/ElectSmart";
+			};
+			name = Debug;
+		};
+		01DA1FD51CB4A578002B0C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ElectSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectSmart.app/ElectSmart";
+			};
+			name = Release;
+		};
+		01DA1FE31CB4BC2F002B0C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ElectSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectSmart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		01DA1FE41CB4BC2F002B0C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ElectSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectSmart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		DCEF88131C8FA283005CAF6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,29 +760,63 @@
 		};
 		DCEF88161C8FA283005CAF6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DBFDB6CA0F9F19A4924578 /* Pods-ElectSmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/ElectSmart/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = svfg.ElectSmart;
+				PRODUCT_BUNDLE_IDENTIFIER = nas.ElectSmart;
 				PRODUCT_NAME = ElectSmart;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		DCEF88171C8FA283005CAF6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77019F5BAE6EA95469CCF3E /* Pods-ElectSmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/ElectSmart/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = svfg.ElectSmart;
+				PRODUCT_BUNDLE_IDENTIFIER = nas.ElectSmart;
 				PRODUCT_NAME = ElectSmart;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01DA1FD61CB4A578002B0C58 /* Build configuration list for PBXNativeTarget "ElectSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DA1FD41CB4A578002B0C58 /* Debug */,
+				01DA1FD51CB4A578002B0C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DA1FE21CB4BC2F002B0C58 /* Build configuration list for PBXNativeTarget "ElectSmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DA1FE31CB4BC2F002B0C58 /* Debug */,
+				01DA1FE41CB4BC2F002B0C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DCEF87FC1C8FA283005CAF6A /* Build configuration list for PBXProject "ElectSmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

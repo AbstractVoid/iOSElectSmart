@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01DA1FDA1CB4BC2F002B0C58"
+               BuildableName = "ElectSmartUITests.xctest"
+               BlueprintName = "ElectSmartUITests"
+               ReferencedContainer = "container:ElectSmart.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01DA1FCC1CB4A577002B0C58"
+               BuildableName = "ElectSmartTests.xctest"
+               BlueprintName = "ElectSmartTests"
+               ReferencedContainer = "container:ElectSmart.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

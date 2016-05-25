@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +18,41 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ElectSmart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eG-cA-4uS">
+                                <rect key="frame" x="0.0" y="420" width="600" height="180"/>
+                                <color key="backgroundColor" red="0.10980392247438431" green="0.54901963472366333" blue="0.54509806632995605" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-we-qvu">
+                                <rect key="frame" x="20" y="20" width="560" height="400"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10980392247438431" green="0.54901963472366333" blue="0.54509806632995605" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0X3-Nf-6WY"/>
+                            <constraint firstItem="Tzx-we-qvu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="6N2-eB-WAz"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="6NC-y7-STv"/>
+                            <constraint firstItem="Tzx-we-qvu" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="8Rq-QM-a5T"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.3" id="AD1-U7-ebv"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="EMW-g6-ZTv"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7eG-cA-4uS" secondAttribute="bottom" id="SLE-Dr-5VB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tzx-we-qvu" secondAttribute="trailing" id="U81-Oq-2hQ"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WNE-f8-wyf"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zd5-RV-oUI"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="f1I-QA-pf8"/>
+                            <constraint firstItem="7eG-cA-4uS" firstAttribute="top" secondItem="Tzx-we-qvu" secondAttribute="bottom" id="kXR-Ss-89J"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0X3-Nf-6WY"/>
+                                <exclude reference="6NC-y7-STv"/>
+                                <exclude reference="WNE-f8-wyf"/>
+                                <exclude reference="f1I-QA-pf8"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +60,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="512" height="512"/>
+    </resources>
 </document>

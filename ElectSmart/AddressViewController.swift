@@ -17,6 +17,8 @@ class AddressViewController: UIViewController, CLLocationManagerDelegate {
     let addressDictionaryKey = "AddressDictionary"
     var appDataPlistPath: String = ""
     
+    
+    @IBOutlet weak var addressLineZeroLabel: UILabel!
     @IBOutlet weak var addressLineOneLabel: UILabel!
     @IBOutlet weak var addressLineTwoLabel: UILabel!
     
@@ -25,6 +27,7 @@ class AddressViewController: UIViewController, CLLocationManagerDelegate {
         
         formPlistPath()
         findMyLocation()
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -72,14 +75,22 @@ class AddressViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.stopUpdatingLocation()
         
         let addressArray = placemark.addressDictionary!
+        let name = addressArray["Name"] as? String ?? ""
         let street = addressArray["Street"] as? String ?? ""
         let city = addressArray["City"] as? String ?? ""
         let state = addressArray["State"] as? String ?? ""
         let zip = addressArray["ZIP"] as? String ?? ""
         let ext = addressArray["PostCodeExtension"] as? String ?? ""
         
-        addressLineOneLabel.text = street
-        addressLineTwoLabel.text = city+", "+state+" "+zip+"-"+ext
+        dispatch_async(dispatch_get_main_queue(), {
+        self.addressLineZeroLabel.textAlignment = .Center;
+        self.addressLineOneLabel.textAlignment = .Center;
+        self.addressLineTwoLabel.textAlignment = .Center;
+        
+        self.addressLineZeroLabel.text = "\""+name+"\""
+        self.addressLineOneLabel.text = street
+        self.addressLineTwoLabel.text = city+", "+state+" "+zip+"-"+ext
+        })
         
         saveAddress(addressArray)
     }

@@ -64,8 +64,20 @@ class MainTabBarController: UITabBarController {
         if let dict = myDict {
             if let addressDictionaryValue = dict.objectForKey(addressDictionaryKey) as? NSData {
                 addressDictionaryData = NSKeyedUnarchiver.unarchiveObjectWithData(addressDictionaryValue) as! [NSObject: AnyObject]
-                print("Retrieved Address Dictionary Data is --> \(addressDictionaryData.description)")
+                //print("Retrieved Address Dictionary Data is --> \(addressDictionaryData.description)")
             }
         }
+    }
+}
+
+extension UIViewController {
+    
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
 }

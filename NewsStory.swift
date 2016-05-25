@@ -11,23 +11,19 @@ import Foundation
 public class NewsStory {
     
     let title: String
-    let subtitle: String
-    let author: String
+    let ID: String
+    let url: String
     let date: NSDate
-    let publisher: String
-    let content: String
-    let image: String?
-    let meta: String?
+    let source: String
+    let description: String
     
-    init(title: String, subtitle: String, author: String, date: NSDate, publisher: String, content: String, image: String, meta: String) {
+    init(title: String, ID: String, url: String, date: NSDate, source: String, description: String) {
         
         self.title = title
-        self.subtitle = subtitle
-        self.author = author
+        self.ID = ID
+        self.url = url
         self.date = date
-        self.publisher = publisher
-        self.content = content
-        self.image = image
-        self.meta = meta
+        self.source = source
+        self.description = description
     }
 }
