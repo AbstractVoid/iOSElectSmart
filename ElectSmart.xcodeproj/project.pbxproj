@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568E4D3D1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E4D3C1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift */; };
+		568E4D3F1C9A719100F5959E /* ElectionEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E4D3E1C9A719100F5959E /* ElectionEventViewController.swift */; };
+		DC7CABAA1C961CE9009BB184 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABA91C961CE9009BB184 /* SettingsViewController.swift */; };
+		DC7CABAC1C961FC8009BB184 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */; };
+		DC7CABAE1C962096009BB184 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7CABAD1C962096009BB184 /* CoreLocation.framework */; };
+		DC7CABB21C962D29009BB184 /* AppData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7CABB11C962D29009BB184 /* AppData.plist */; };
+		DC7CABB41C963DA0009BB184 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABB31C963DA0009BB184 /* MainTabBarController.swift */; };
+		DC7CABD81C966805009BB184 /* NewsStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABD71C966805009BB184 /* NewsStory.swift */; };
+		DC7CABDA1C966847009BB184 /* CurrentEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABD91C966847009BB184 /* CurrentEventsTableViewController.swift */; };
+		DC7CABDD1C96793D009BB184 /* NewsStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7CABDC1C96793D009BB184 /* NewsStoryViewController.swift */; };
+		DCEF88051C8FA283005CAF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF88041C8FA283005CAF6A /* AppDelegate.swift */; };
+		DCEF88071C8FA283005CAF6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF88061C8FA283005CAF6A /* HomeViewController.swift */; };
+		DCEF88091C8FA283005CAF6A /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF88081C8FA283005CAF6A /* UpcomingViewController.swift */; };
+		DCEF880C1C8FA283005CAF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEF880A1C8FA283005CAF6A /* Main.storyboard */; };
+		DCEF880E1C8FA283005CAF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEF880D1C8FA283005CAF6A /* Assets.xcassets */; };
+		DCEF88111C8FA283005CAF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEF880F1C8FA283005CAF6A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		568E4D3C1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingElectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		568E4D3E1C9A719100F5959E /* ElectionEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionEventViewController.swift; sourceTree = "<group>"; };
+		DC7CABA91C961CE9009BB184 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		DC7CABAD1C962096009BB184 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC7CABB11C962D29009BB184 /* AppData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppData.plist; sourceTree = "<group>"; };
+		DC7CABB31C963DA0009BB184 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DC7CABD71C966805009BB184 /* NewsStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStory.swift; sourceTree = "<group>"; };
+		DC7CABD91C966847009BB184 /* CurrentEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentEventsTableViewController.swift; sourceTree = "<group>"; };
+		DC7CABDC1C96793D009BB184 /* NewsStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStoryViewController.swift; sourceTree = "<group>"; };
+		DCEF88011C8FA283005CAF6A /* ElectSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEF88041C8FA283005CAF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEF88061C8FA283005CAF6A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCEF88081C8FA283005CAF6A /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		DCEF880B1C8FA283005CAF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCEF880D1C8FA283005CAF6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEF88101C8FA283005CAF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCEF88121C8FA283005CAF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEF87FE1C8FA283005CAF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7CABAE1C962096009BB184 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCEF87F81C8FA283005CAF6A = {
+			isa = PBXGroup;
+			children = (
+				DC7CABD71C966805009BB184 /* NewsStory.swift */,
+				DC7CABAD1C962096009BB184 /* CoreLocation.framework */,
+				DCEF88031C8FA283005CAF6A /* ElectSmart */,
+				DCEF88021C8FA283005CAF6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEF88021C8FA283005CAF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF88011C8FA283005CAF6A /* ElectSmart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEF88031C8FA283005CAF6A /* ElectSmart */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF88041C8FA283005CAF6A /* AppDelegate.swift */,
+				DC7CABB31C963DA0009BB184 /* MainTabBarController.swift */,
+				DCEF88061C8FA283005CAF6A /* HomeViewController.swift */,
+				DC7CABAB1C961FC8009BB184 /* AddressViewController.swift */,
+				DC7CABA91C961CE9009BB184 /* SettingsViewController.swift */,
+				568E4D3C1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift */,
+				568E4D3E1C9A719100F5959E /* ElectionEventViewController.swift */,
+				DC7CABD91C966847009BB184 /* CurrentEventsTableViewController.swift */,
+				DCEF88081C8FA283005CAF6A /* UpcomingViewController.swift */,
+				DC7CABDC1C96793D009BB184 /* NewsStoryViewController.swift */,
+				DCEF880A1C8FA283005CAF6A /* Main.storyboard */,
+				DCEF880D1C8FA283005CAF6A /* Assets.xcassets */,
+				DCEF880F1C8FA283005CAF6A /* LaunchScreen.storyboard */,
+				DCEF88121C8FA283005CAF6A /* Info.plist */,
+				DC7CABB11C962D29009BB184 /* AppData.plist */,
+			);
+			path = ElectSmart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEF88001C8FA283005CAF6A /* ElectSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEF88151C8FA283005CAF6A /* Build configuration list for PBXNativeTarget "ElectSmart" */;
+			buildPhases = (
+				DCEF87FD1C8FA283005CAF6A /* Sources */,
+				DCEF87FE1C8FA283005CAF6A /* Frameworks */,
+				DCEF87FF1C8FA283005CAF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectSmart;
+			productName = SmartElect;
+			productReference = DCEF88011C8FA283005CAF6A /* ElectSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEF87F91C8FA283005CAF6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stephen Gaschignard";
+				TargetAttributes = {
+					DCEF88001C8FA283005CAF6A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 93HMH2242V;
+					};
+				};
+			};
+			buildConfigurationList = DCEF87FC1C8FA283005CAF6A /* Build configuration list for PBXProject "ElectSmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCEF87F81C8FA283005CAF6A;
+			productRefGroup = DCEF88021C8FA283005CAF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEF88001C8FA283005CAF6A /* ElectSmart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEF87FF1C8FA283005CAF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEF88111C8FA283005CAF6A /* LaunchScreen.storyboard in Resources */,
+				DCEF880E1C8FA283005CAF6A /* Assets.xcassets in Resources */,
+				DC7CABB21C962D29009BB184 /* AppData.plist in Resources */,
+				DCEF880C1C8FA283005CAF6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEF87FD1C8FA283005CAF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E4D3F1C9A719100F5959E /* ElectionEventViewController.swift in Sources */,
+				DC7CABDA1C966847009BB184 /* CurrentEventsTableViewController.swift in Sources */,
+				DC7CABD81C966805009BB184 /* NewsStory.swift in Sources */,
+				DCEF88091C8FA283005CAF6A /* UpcomingViewController.swift in Sources */,
+				DCEF88051C8FA283005CAF6A /* AppDelegate.swift in Sources */,
+				DC7CABAC1C961FC8009BB184 /* AddressViewController.swift in Sources */,
+				DC7CABDD1C96793D009BB184 /* NewsStoryViewController.swift in Sources */,
+				DC7CABB41C963DA0009BB184 /* MainTabBarController.swift in Sources */,
+				DCEF88071C8FA283005CAF6A /* HomeViewController.swift in Sources */,
+				DC7CABAA1C961CE9009BB184 /* SettingsViewController.swift in Sources */,
+				568E4D3D1C9A70E400F5959E /* UpcomingElectionCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCEF880A1C8FA283005CAF6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEF880B1C8FA283005CAF6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCEF880F1C8FA283005CAF6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEF88101C8FA283005CAF6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCEF88131C8FA283005CAF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCEF88141C8FA283005CAF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEF88161C8FA283005CAF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ElectSmart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svfg.ElectSmart;
+				PRODUCT_NAME = ElectSmart;
+			};
+			name = Debug;
+		};
+		DCEF88171C8FA283005CAF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ElectSmart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svfg.ElectSmart;
+				PRODUCT_NAME = ElectSmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEF87FC1C8FA283005CAF6A /* Build configuration list for PBXProject "ElectSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEF88131C8FA283005CAF6A /* Debug */,
+				DCEF88141C8FA283005CAF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEF88151C8FA283005CAF6A /* Build configuration list for PBXNativeTarget "ElectSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEF88161C8FA283005CAF6A /* Debug */,
+				DCEF88171C8FA283005CAF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCEF87F91C8FA283005CAF6A /* Project object */;
+}
